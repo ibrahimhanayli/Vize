@@ -1,1 +1,1 @@
-# Vize
+# Osman Gazi Üniversitesi Web Tasarımının Temelleri Dersi Vize Ödevidir.

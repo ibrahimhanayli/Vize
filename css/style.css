@@ -1,0 +1,56 @@
+body{
+    background-color: #212529;
+    color: white;
+    min-height: 100vh;
+}
+
+.pp{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.HeaderPhoto{
+    position: relative; 
+    width: 100%;
+}
+
+.yazı{
+    position: absolute; 
+    top: 30%; 
+    left: 40%;
+    color:white;
+}
+
+.up{
+    margin-top: 50px;
+}
+
+.Açıklama{
+    color: white;
+}
+
+@media only screen and (max-width: 425px) {
+    .yazı{
+        font-size: 20px;
+        top: 20%;
+        right: 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .yazı{
+        left: 35%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .yazı{
+        top: 20%; 
+    }
+}
+@media only screen and (max-width: 320px) {
+    .yazı{
+        top: 17%;
+        right: 50%;
+    }
+}
